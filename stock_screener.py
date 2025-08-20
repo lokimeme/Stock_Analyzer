@@ -9,7 +9,7 @@ from tqdm import tqdm
 
 TICKER_FILE = "russell1000_tickers.csv"
 OUTPUT_FILE = "scan_results.csv"
-FAILED_FILE = "failed_tickers.txt"
+FAILED_FILE = "failed_tickers.csv"
 
 BATCH_SIZE = 10
 BATCH_RETRIES = 6
